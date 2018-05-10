@@ -5,10 +5,12 @@ body{
 .blks div{
 	background-color: grey;
 }
+h4{
+	padding-top:13px;
+}
 .center{
 	text-align: center;
 	font-size: 2em;
-	padding-top:13px;
 }
 .navbar{
 	text-color:black;
