@@ -1,1 +1,63 @@
 
+
+.blk{
+	width: 340px;
+	height: 200px;
+	background-color: grey;
+	border:2px solid black;
+	float: left;
+	margin-right: 20px;
+}
+
+div{
+	padding-left: 5px ;
+}
+
+#pink{
+	
+	background-color: pink;
+	border: 2px solid black;
+	padding: 5px 10% ;
+	margin:-2px -2px 10px 65%;
+}
+#red{
+	background-color: red;
+	border: 2px solid black;
+	padding: 5px 10% ;
+	margin:-2px -2px 10px 65%;
+}
+#yell{
+	background-color: yellow;
+	border: 2px solid black;
+	padding: 5px 10% ;
+	margin:-2px -2px 10px 65%;
+}
+
+@media (min-width: 992px){
+.blk-lg{
+	margin-top: 30px;
+	width: 30%;
+	height: 45%;
+}
+}
+
+@media( max-width: 991px) and (min-width: 768px){
+.blk-md{
+	margin-top: 30px;
+    width: 40%;
+    height: 50%;
+}
+.blk-md-1{
+	width: 83%;
+	height: 30%;
+}
+}
+@media(max-width: 767px){
+.blk-sm{
+	margin-top: 30px;
+	width: 70%;
+	height: 60%;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+}
