@@ -8,6 +8,7 @@ body{
 .center{
 	text-align: center;
 	font-size: 2em;
+	padding-top:13px;
 }
 .navbar{
 	text-color:black;
